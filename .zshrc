@@ -1,5 +1,6 @@
-PROMPT='%F{blue}%n@%m %F{yellow}%T %F{green}%~ %f%#'
 bindkey -v
+
+export LESS="-F -X $LESS"
 
 alias ll="ls -alh"
 alias mv="mv -i"
@@ -17,4 +18,5 @@ git config --global --list
 # git 配置用户名和邮箱信息
 git config --global user.name "liuqiming"
 git config --global user.email "liuqiming.37@bytedance.com"
+
 
